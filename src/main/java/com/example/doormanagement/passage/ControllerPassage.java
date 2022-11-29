@@ -15,6 +15,7 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 @RequestMapping("/passage")
 @RequiredArgsConstructor
+@CrossOrigin("*")
 public class ControllerPassage {
 
     private final ServicePassage servicePassage;

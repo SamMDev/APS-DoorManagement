@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 @RequestMapping("/gateway")
 @RequiredArgsConstructor
+@CrossOrigin("*")
 public class ControllerGateway {
 
     private final ServiceGateway serviceGateway;
